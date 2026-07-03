@@ -44,12 +44,6 @@ pnpm run package:mac
 
 Packaged artifacts are written to `release/<version>/`.
 
-## Configuration
-
-The app reads one optional runtime flag:
-
-- `DEBUG_RAW_CAPTURE=1` renders the raw input texture without the black hole shader.
-
 ## Main Dependencies
 
 The project dependencies are declared in `package.json` and locked by `pnpm-lock.yaml`.
