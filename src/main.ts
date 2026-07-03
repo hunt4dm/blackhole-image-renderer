@@ -14,7 +14,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <button id="collapse-controls" type="button" aria-label="Collapse controls">-</button>
     </header>
     <label class="file-picker">
-      <input id="image-input" type="file" accept="image/png,image/jpeg,image/webp,image/avif,image/gif,image/bmp,image/svg+xml,.heic,.heif" />
+      <input id="image-input" type="file" accept="image/png,image/jpeg,image/webp,image/avif,image/gif,image/bmp,image/svg+xml" />
       <span>Choose image</span>
     </label>
     <select id="fit-mode" aria-label="Image fit mode">

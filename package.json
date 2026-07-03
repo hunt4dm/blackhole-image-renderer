@@ -1,7 +1,7 @@
 {
   "name": "blackhole-desktop",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An Electron desktop app for rendering a black hole lensing effect over local images.",
   "author": "Blackhole Image Renderer contributors",
   "license": "MIT",
