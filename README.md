@@ -64,3 +64,7 @@ The physical model and visual design are based on these open-source works:
   https://github.com/ebruneton/black_hole_shader
 - ghostty-blackhole by s13k:
   https://github.com/s13k/ghostty-blackhole
+
+## LICENSE
+
+MIT
