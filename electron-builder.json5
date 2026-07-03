@@ -1,0 +1,48 @@
+// @see - https://www.electron.build/configuration/configuration
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.blackhole.image-simulator",
+  "asar": true,
+  "productName": "Black Hole Simulator",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": [
+    "dist/**",
+    "dist-electron/**",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "dist-electron/main.js"
+  },
+  "mac": {
+    "category": "public.app-category.graphics-design",
+    "target": [
+      "dmg"
+    ],
+    "artifactName": "${productName}-${version}-macOS.${ext}"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "artifactName": "${productName}-${version}-Windows-Setup.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": false
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ],
+    "artifactName": "${productName}-Linux-${version}.${ext}"
+  }
+}

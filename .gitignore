@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-electron/
+dist-ssr/
+release/
+*.asar
+*.blockmap
+*.dmg
+*.exe
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.local
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Workspace-only material that is not part of this Electron app
+blackhole-window/
+third_party/
+docs/
+PROJECT_ARCHITECTURE.md
+要求.txt
