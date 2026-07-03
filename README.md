@@ -56,10 +56,14 @@ The project dependencies are declared in `package.json` and locked by `pnpm-lock
 
 Runtime browser APIs used by the renderer include WebGL2, Canvas 2D, and local file input decoding.
 
-## Repository Hygiene
+## References
 
-Generated artifacts, local environment files, prior Swift prototypes, vendored research references, and personal workspace notes are ignored by `.gitignore` and are not part of this Electron app repository.
+The physical model and visual design are based on these open-source works:
 
-## License
+- Eric Bruneton, Black Hole Shader:
+  https://github.com/ebruneton/black_hole_shader
+- ghostty-blackhole by s13k:
+  https://github.com/s13k/ghostty-blackhole
 
-MIT
+Reference shader sources are kept as vendored reference material for study and
+comparison. Original reference files are not modified by this project.
